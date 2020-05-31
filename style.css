@@ -1,0 +1,192 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+
+
+a{
+text-decoration: none;
+
+}
+
+header{
+	background-image: linear-gradient(rgba(26,26,26,0.7), rgba(26,26,26,0.7)),url(background-img.jpg);
+	padding:25px 25px;
+	background-size: cover;
+	background-position: center center;
+	font-family: poppins;
+	height: 100vh;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.navigation{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.logo{
+	height: 100px;
+	width: 100px;
+}
+.navigation{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nav-area{
+	list-style: none;
+}
+
+.nav-area li{
+	display: inline-block;
+	padding: 18px 15px;
+	text-transform: uppercase;
+}
+
+.nav-area li a{
+	color: white;
+}
+
+.nav-area li a:hover {
+	color: navy;
+}
+
+.btn-area{
+	cursor: pointer;
+	color: red;
+	font-size: 16px;
+	height: 40px;
+	text-transform: uppercase;
+	padding:10px 30px;
+	background:grey;
+	border-radius: 5px;
+}
+
+.main-messege{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 190px;
+	color: white;
+}
+
+.customer-voice{
+	padding: 50px 20px ;
+	text-align: center;
+	width: auto;
+}
+
+.voice{
+	background-color: rgb(126, 173, 216);
+}
+	
+.voice-1,
+.voice-2{
+	display: flex;
+	width: auto;
+}
+
+.voice-1 img,
+.voice-2 img{
+	padding-left: 50px;
+	padding-bottom: 10px;
+	height: 300px;
+	width: 400px;
+}
+.voice-1 p,
+.voice-2 p{
+	float: right;
+	height: 180px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.subscription{
+	padding:50px 50px;
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.price{
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.master,
+.intermediate,
+.begginer{
+	height: 400px;
+	width: 300px;
+	background-color:rgb(228, 222, 222);
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+.fee{
+	font-size: 50px;
+	padding-top: 50px;
+}
+
+.fee span{
+	font-size: 20px;
+}
+
+.dummy{
+	height: 30px;
+}
+
+.btn-sbc{
+	display: inline-block;
+	background-color: orange;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-top: 50px;
+	border-radius: 10px;
+	padding:4px 4px;
+
+}
+
+.btn-sbc:hover{
+	display: inline-block;
+	background-color: red;
+	font-size: 50px;
+	margin-top: 10px;
+	margin-top: 50px;
+	border-radius: 10px;
+	padding:4px 4px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
